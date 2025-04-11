@@ -801,10 +801,6 @@ h1, h2, h3, h4, h5, h6 {
             background-color: #f8f9fa !important;
           }
           
-          /* .bg-dark {
-            background-color: !important; /* Dark brown as requested */
-          } */
-          
           .text-white {
             color: #fff !important;
           }
@@ -876,11 +872,37 @@ h1, h2, h3, h4, h5, h6 {
           
           /* Quality Products Section */
 
+          
+        /* Quality Products Section */
+            .quality-products {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+    
+
           .quality-products p {
             font-size: 18px;
             margin-bottom: 2.5rem; /* Increased spacing between paragraphs */
             line-height: 1.8; /* Increased line height for better readability */
           }
+
+          /* Additional responsive adjustments */
+        @media (max-width: 768px) {
+            .quality-products {
+            padding-left: 20px;
+            padding-right: 20px;
+            }
+            
+            .quality-products .container {
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+            
+            .quality-products p {
+            font-size: 16px;
+            margin-bottom: 2rem;
+            }
+        }
           
           
           /* Utility Classes */
